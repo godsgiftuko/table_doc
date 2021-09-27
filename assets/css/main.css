@@ -1,0 +1,162 @@
+.bold {
+    font-weight: bold;
+}
+.strip_col {
+    background-color: #f4f4f4;
+}
+
+body {
+    background-color: white;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.wrapper #logo {
+    position: absolute;
+}
+
+.wrapper .caption {
+    text-align: center;
+    font-weight: bold;
+    caption-side: top;
+    color: black;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.wrapper .school-data {
+    text-align: center;
+}
+
+.wrapper .school-data * {
+    font-size: 12px;
+}
+
+.wrapper .school-data .name,
+.wrapper .school-data span,
+.wrapper .school-data .address,
+.wrapper .school-data .motto {
+    text-transform: uppercase;
+}
+
+.wrapper .school-data .name,
+.wrapper .school-data span,
+.wrapper .school-data .motto {
+    font-weight: 600;
+}
+
+.wrapper .school-data span {
+    font-size: 14px;
+}
+
+.wrapper .school-data .name {
+    font-size: 18px;
+}
+
+.wrapper .student-data {
+    margin: 2px 0;
+}
+
+.wrapper .student-data .key {
+    display: block;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.wrapper .student-data .key .value {
+    text-transform: uppercase;
+}
+
+.wrapper .remark {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.wrapper .remark div {
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* width: 50%; */
+    border: 1px solid black;
+    text-transform: uppercase;
+    flex: 2.23;
+}
+.wrapper .remark div:first-child {
+    flex: 1;
+    border: none;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.wrapper .remark div h6 {
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}
+.wrapper .remark div span h6:first-child {
+    text-align: left;
+    width: 120px;
+    border-bottom: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0;
+    width: 100%;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px 8px !important;
+    display: table-cell;
+    text-transform: capitalize;
+}
+
+table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+table tr {
+    vertical-align: middle;
+    display: table-row;
+}
+
+/*
+RIGHT TABLE
+*/
+.table-right .vertical {
+    text-align: center !important;
+    text-transform: capitalize;
+    margin: auto;
+    font-size: 12px;
+    background-color: transparent;
+    position: relative;
+}
+
+.table-right .vertical span {
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+}
+
+.table-left td,
+.table-left th {
+    padding: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+@media print {
+    @page {
+        /* size: auto !important */
+        size: A3;
+        margin-left: 0.5cm;
+        margin-right: 0.5cm;
+    }
+}

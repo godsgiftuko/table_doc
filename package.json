@@ -1,0 +1,11 @@
+{
+  "name": "htmltopdf_converter",
+  "version": "1.0.0",
+  "description": "A simple nodejs application that converts html document to pdf.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "",
+  "license": "ISC"
+}
